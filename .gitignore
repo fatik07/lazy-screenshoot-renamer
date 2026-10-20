@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.egg-info/
+dist/
+.env
+.sloth-shots.jsonl
+.sloth-shots-cache.json

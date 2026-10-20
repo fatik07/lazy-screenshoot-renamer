@@ -1,0 +1,15 @@
+[project]
+name = "sloth-shots"
+version = "0.1.0"
+description = "Rename your screenshots by what's in them, using an open-weight vision model."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+sloth-shots = "sloth_shots:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
